@@ -1,0 +1,8 @@
+# Ignore the following files
+*~
+TAGS
+
+# Ignore the following directories
+build/
+external/
+tmp/
