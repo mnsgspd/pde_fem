@@ -1,0 +1,5 @@
+{
+    "vtk_file": "../data/square.vtk",
+    "solver": "conjugate_gradient",
+    "governing_equation": "Poisson"
+}

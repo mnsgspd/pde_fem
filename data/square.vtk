@@ -1,0 +1,48 @@
+# vtk DataFile Version 3.0
+square_mesh
+ASCII
+DATASET UNSTRUCTURED_GRID
+
+POINTS 9 float
+0 0 0
+1 0 0
+2 0 0
+0 1 0
+1 1 0
+2 1 0
+0 2 0
+1 2 0
+2 2 0
+
+CELLS 8 32
+3 0 1 4
+3 0 4 3
+3 1 2 5
+3 1 5 4
+3 3 4 7
+3 3 7 6
+3 4 5 8
+3 4 8 7
+
+CELL_TYPES 8
+5
+5
+5
+5
+5
+5
+5
+5
+
+POINT_DATA 9
+SCALARS boundary_condition int 1
+LOOKUP_TABLE default
+1
+1
+1
+1
+0
+1
+1
+1
+1
